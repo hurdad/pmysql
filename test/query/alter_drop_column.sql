@@ -1,0 +1,2 @@
+ALTER TABLE Persons
+DROP COLUMN DateOfBirth;

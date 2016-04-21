@@ -17,4 +17,8 @@ pmysql.c: pmysql.l
 	
 pmysql.o: pmysql.c pmysql.tab.h
 
+test: all
+	cd test && python gen_tests.py
+	cd test && py.test -v
+
 .SUFFIXES: .pgm .l .y .c
