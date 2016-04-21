@@ -1,3 +1,9 @@
+# Generated
+pmysql
+pmysql.c
+pmysql.tab.c
+pmysql.tab.h
+
 # Object files
 *.o
 *.ko
